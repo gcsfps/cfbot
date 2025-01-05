@@ -1,0 +1,23 @@
+{
+    "delays": {
+        "min_delay": 1,
+        "max_delay": 3,
+        "block_pause": 60
+    },
+    "batch": {
+        "size": 100,
+        "checkpoint_interval": 100
+    },
+    "limits": {
+        "enabled": false,
+        "daily_best_friends_limit": 5000
+    },
+    "proxy": {
+        "enabled": false,
+        "proxy_list": []
+    },
+    "retry": {
+        "max_attempts": 3,
+        "delay_between_attempts": 5
+    }
+}
